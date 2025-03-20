@@ -414,6 +414,15 @@ INFO: Estimated Profit: 1.500000e+18
 ✅ Optimal Input Amount (x*): 3.000000e+18
 💰 Expected Arbitrage Profit: 1.500000e+18
 ```
+Example INVALID output response :
+```
+INFO: Starting calculation for optimal swap input and profit...
+INFO: Computed k = 500000000000000000000000000
+INFO: Coefficients calculated: a = 2.500000000000000000000000000000E+35, b = 5.000000000000000000000000000000E+39, c = 2.499999999999999999999999999999E+43
+INFO: Discriminant = -4.000000000000000000000000000000E+79
+ERROR: Discriminant is negative. No real solution exists.
+❌ No valid solution found due to errors.
+```
 
 
 
