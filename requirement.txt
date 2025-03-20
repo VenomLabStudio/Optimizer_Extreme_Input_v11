@@ -1,0 +1,6 @@
+# No external dependencies needed for the current script.
+# However, you can include common packages for future enhancements.
+
+# Uncomment these if you need additional features later
+# numpy==1.24.3  # For numerical computations (optional)
+# pandas==1.5.3  # For handling large datasets (optional)
