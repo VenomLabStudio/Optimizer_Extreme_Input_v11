@@ -1,6 +1,24 @@
 # Optimizer_Extreme_Input_v11
 Prepared and developcalculation by VenomLab Studio
 
+```
+pip install -r requirements.txt
+```
+
+```
+pip install ethers@5.7.2
+```
+
+If has error,please check and install pacakges needed before get deeper into this explanation
+
+```
+python --version
+```
+
+```
+pip --version
+```
+
 # 2-Hop Arbitrage Formula 📈💰
 
 ## Overview  
