@@ -444,6 +444,61 @@ INFO: Discriminant = -4.000000000000000000000000000000E+79
 ERROR: Discriminant is negative. No real solution exists.
 ❌ No valid solution found due to errors.
 ```
+========================================
+EXAMPLE RESPONSE DEBUG CONSOLE WHENN RUN MEV
+using extreme input and extreme output
+==========================================
 
+```
+PS D:\New folder> node scripts/newton
+🔍 Starting Arbitrage Check...
+🔍 Fetching V2 Reserves...
+✅ V2 Reserves Fetched:
+   WBNB: 1387.879615
+   BUSD: 866730.207892
+🔍 Fetching V3 Price...
+✅ V3 Price:
+   624.213761 BUSD per WBNB
+🔄 Calculating Arbitrage Opportunity...
+📊 V2 Price:
+   624.499559 BUSD per WBNB
+📊 V3 Price:
+   624.213761 BUSD per WBNB
+📈 Price Difference: 0.05%
+✅ Arbitrage detected! Finding best trade size...
+🔄 Iteration 1:
+   Current X: 0.100000
+   New X: 694.148650
+🔄 Iteration 2:
+   Current X: 694.148650
+   New X: 854.360345
+🔄 Iteration 3:
+   Current X: 854.360345
+   New X: 858.039256
+🔄 Iteration 4:
+   Current X: 858.039256
+   New X: 858.040928
+🔄 Iteration 5:
+   Current X: 858.040928
+   New X: 858.040928
+✅ Converged at iteration 5
+⚠️ Trade size (858.040928 WBNB) is too large. Capping at 0.1 WBNB.
+🔹 Optimal Trade Size: 0.100000 WBNB
+💡 Optimized Swap Output:
+   63.207892 BUSD
+💰 Expected Profit:
+   0.001260 WBNB
+🚀 Profitable Arbitrage Found! Executing trade...
+🚀 Executing MEV transaction on real network...
+✅ Arbitrage Check Complete!
+🔄 Loop enabled. Refreshing in 3 seconds...
+🚀 Starting swap execution...
+💰 Current Balances: 999.998747178794111415 WBNB | 0.0 USDT
+🔎 Estimating swap on PancakeSwap V2...
+✅ Estimated Output: 60.440018258670923071 USDT
+💰 Swapping 0.1 WBNB
+🎯 Minimum expected: 57.418017345737376917 USDT (after slippage)
+🔐 Approving WBNB for Smart Router...
+```
 
 
