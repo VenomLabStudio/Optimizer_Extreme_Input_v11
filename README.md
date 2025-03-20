@@ -522,4 +522,18 @@ Example Reponse tracking :
 ✅ Arbitrage Check Complete!
 ```
 
+Use sdk_venom / BACKTRACK V10 (MEV SEARCHER) and  libraries to fetch:
+-Bundle tx
+-Tracking MEV 
+-Filtering Profit
+-Filtering Bundle
+-Filtering Strategy Path
+-Fetching Pending transaction Real Time on MEMpool
+
+Contact DevVenom at :
+venom_ewm@proton.me
+ewm24k@gmail.com
+
+Discord : https://discord.gg/P3BFHtzK
+
 
