@@ -523,6 +523,9 @@ Example Reponse tracking :
 ```
 
 Use sdk_venom / BACKTRACK V10 (MEV SEARCHER) and  libraries to fetch:
+
+BACKTRACK V10 :https://youtube.com/playlist?list=PLuO_fGgibQpWd7L_7lXdW9GaP9dYT9epB&si=eJuGCJjhnaEGTq-5
+
 -Bundle tx
 -Tracking MEV 
 -Filtering Profit
