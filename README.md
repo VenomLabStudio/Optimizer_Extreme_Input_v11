@@ -501,4 +501,25 @@ PS D:\New folder> node scripts/newton
 🔐 Approving WBNB for Smart Router...
 ```
 
+Example Reponse tracking :
+
+```
+🔍 Starting Arbitrage Check...
+🔍 Fetching V2 Reserves...
+✅ V2 Reserves Fetched:
+   WBNB: 1389.967967
+   BUSD: 865434.729356
+🔍 Fetching V3 Price...
+✅ V3 Price:
+   623.469037 BUSD per WBNB
+🔄 Calculating Arbitrage Opportunity...
+📊 V2 Price:
+   622.629262 BUSD per WBNB
+📊 V3 Price:
+   623.469037 BUSD per WBNB
+📈 Price Difference: -0.13%
+🚫 No arbitrage opportunity found. Price difference (-0.13%) is outside allowed range.
+✅ Arbitrage Check Complete!
+```
+
 
